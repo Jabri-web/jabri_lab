@@ -1,4 +1,4 @@
-# Jabr_lib — Jabri's Laboratory for Computational Proofs
+# Jabri_lib — Jabri's Laboratory for Computational Proofs
 
 One idea per file. Run it. Check it. Break it.  
 Public verification of computational results.
