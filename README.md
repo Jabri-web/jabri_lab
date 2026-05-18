@@ -8,7 +8,7 @@ Public verification of computational results.
 This repo implements the functions used in the Zx_28 verification work.
 
 ![Model Equations](image/Showing_Equastions.png)
-
+https://github.com/jabri62018/Jabri_lab/blob/Jabri_lab/Equations.png
 ### Equations
 
 Set Planck units: $x_p = 1.0$
