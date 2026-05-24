@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite both repository records below."
+authors:
+    - family-names: "الجبري"
+    given-names: ""
+    orcid: "https://orcid.org/0009-0003-3319-3822"
+    affiliation: "Independent Researcher, Sana'a, Yemen"
+    email: "Jabri62018@gmail.com"
+title: "The 4+1 Eigenvalue Law: Zero-Parameter Solution to Riemann Hypothesis and Cosmology"
+version: "1.2.2"
+date-released: 2026-05-11
+repository-code: "https://github.com/jabri62018/Zx_RieOS_v1.2"
+license: CC-BY-4.0
+
+keywords:
+    - riemann-hypothesis
+    - hubble-tension
+    - dark-energy
+    - desi-2024
+    - zero-parameter-physics
+    - 4+1-dimensions
+    - mother-function
+    - theoretical-physics
+    - cosmology
+    - yemen
+    - zt=1
+
+preferred-citation:
+  type: article
+  title: "The 4+1 Eigenvalue Law: Zero-Parameter Solution to Riemann Hypothesis and Cosmology"
+  authors:
+        - family-names: "الجبري"
+      given-names: ""
+  journal: "Zenodo Repository"
+  year: 2026
