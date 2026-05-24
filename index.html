@@ -1,113 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jabri_lab | Laboratory for Computational Proofs</title>
+<title>Jabri_lab - Computational Proofs</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
 <style>
 body {
-  background:#0a0a0f; 
-  color:#e8e8f0;
-  font-family: "Tajawal", "Arial", sans-serif;
+  font-family: 'Tajawal', sans-serif;
+  background: #0d1117;
+  color: #c9d1d9;
   margin: 0;
+  padding: 0;
+}
+.header {
+  background: #010409;
+  border-bottom: 1px solid #30363d;
   padding: 40px 20px;
-  line-height: 1.8;
+  text-align: center;
 }
-.container { max-width: 900px; margin: 0 auto; }
-h1,h2,h3,h4 { color:#6ae3ff; border-bottom:1px solid #1f1f2e; padding-bottom:10px; margin-top:40px; }
-a { color:#6ae3ff; text-decoration:none; }
-a:hover { text-decoration:underline; }
-ul, ol { padding-right: 20px; }
-li { margin:10px 0; padding:12px; background:#14141f; border-radius:6px; }
-code { background:#1f1f2e; padding:2px 6px; border-radius:4px; color:#6ae3ff; }
-.badge {
-  display:inline-block;
-  background:#6ae3ff;
-  color:#0a0a0f;
-  padding:8px 20px;
-  border-radius:6px;
-  font-weight:600;
-  margin:15px 5px;
-  text-decoration:none;
+.header h1 {
+  color: #58a6ff;
+  margin: 0 0 10px 0;
 }
-img { max-width:100%; border-radius:8px; margin:20px 0; }
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+.card h2 {
+  color: #58a6ff;
+  margin-top: 0;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 10px;
+}
+.file-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+}
+.file-item {
+  background: #21262d;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+}
+.file-item a {
+  color: #c9d1d9;
+  text-decoration: none;
+  font-family: monospace;
+}
+.file-item a:hover {
+  color: #58a6ff;
+}
+.file-item small {
+  color: #8d96a0;
+  display: block;
+  margin-top: 5px;
+}
 </style>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
+
+<div class="header">
+  <h1>🧪 Jabri_lab</h1>
+  <p>Jabri's Laboratory for Computational Proofs</p>
+  <p style="color:#8d96a0;">Public verification of computational results using Zx function</p>
+</div>
+
 <div class="container">
 
-<h1>Jabri_lab — Jabri's Laboratory for Computational Proofs</h1>
-<p><strong>Public verification of computational results using Zx function.</strong><br>
-One idea per folder. Run it. Check it. Break it.</p>
+  <div class="card">
+    <h2>Notebooks & Results</h2>
+    <div class="file-grid">
+      
+      <div class="file-item">
+        <a href="Jabri_28.ipynb">Jabri_28.ipynb</a>
+        <small>Notebook</small>
+        <a href="Jabri_28_table.csv">Table CSV</a> | 
+        <a href="Jabri_28_figure.png">Figure PNG</a>
+      </div>
 
-<p><strong>Author:</strong> Eng. Abdulla Al-Jabri - مهندس عبدالله الجبري<br>
-<strong>Contact:</strong> <a href="mailto:jabri62018@gmail.com">jabri62018@gmail.com</a></p>
+      <div class="file-item">
+        <a href="Jabri_5.ipynb">Jabri_5.ipynb</a>
+        <small>Notebook</small>
+        <a href="Jabri_5_table.csv">Table CSV</a> | 
+        <a href="Jabri_5_figure.png">Figure PNG</a>
+      </div>
 
-<a href="https://github.com/Jabri-web/jabri_lab" class="badge">GitHub Repo</a>
-<a href="https://Jabri-web.github.io/" class="badge">Main Site</a>
+      <div class="file-item">
+        <a href="Jabri_Darkenergy.ipynb">Jabri_Darkenergy.ipynb</a>
+        <small>Notebook</small>
+        <a href="Jabri_Darkenergy_table.csv">Table CSV</a> | 
+        <a href="Jabri_Darkenergy_figure.png">Figure PNG</a>
+      </div>
 
-<h2>Core Model</h2>
-<img src="Equations.png" alt="Model Equations">
+      <div class="file-item">
+        <a href="Jabri_Gravity.ipynb">Jabri_Gravity.ipynb</a>
+        <small>Notebook</small>
+      </div>
 
-<h3>Equations Set</h3>
-<p>Planck units: \(x_p = 21.0\)</p>
-$$
-\begin{aligned}
-Z(x) &= \exp(-x/x_p) \cdot \exp(-5\ln(x)) \cdot \ln(x) \cdot \sin\left(\frac{2\pi}{x}\right) \\
-A(x) &= \left(\frac{x}{x_p}\right)^2 \exp(-x/x_p) \\
-C(x) &= 1 - Z(x) - A(x) \\
-Z_t &= Z + C + A = 1 \\
-C_{calc} &= 0.5 \cdot \gamma^2 \cdot \text{Re}\left[\frac{Z'''(\gamma)}{Z(\gamma)}\right]
-\end{aligned}
-$$
+      <div class="file-item">
+        <a href="Jabri_Hubble.ipynb">Jabri_Hubble.ipynb</a>
+        <small>Notebook</small>
+        <a href="Jabri_Hubble_table.csv">Table CSV</a>
+      </div>
 
-<h2>Results</h2>
-<p>Each experiment has 3 files in its folder:</p>
-<ul>
-<li><code>Name_table.csv</code> - numerical results and matches</li>
-<li><code>Name_figure.png</code> - plot of results</li>
-<li><code>Name.ipynb</code> - reproducible code</li>
-</ul>
+      <div class="file-item">
+        <a href="Jabri_Periodic.ipynb">Jabri_Periodic.ipynb</a>
+        <small>Notebook</small>
+        <a href="Jabri_Periodic_table.csv">Table CSV</a>
+      </div>
 
-<h3>Core Experiments</h3>
+      <div class="file-item">
+        <a href="Jabri_Planck.ipynb">Jabri_Planck.ipynb</a>
+        <small>Notebook</small>
+        <a href="Jabri_Planck_table.csv">Table CSV</a> | 
+        <a href="Jabri_Planck_figure.png">Figure PNG</a>
+      </div>
 
-<h4>1. Zx_Planck</h4>
-<p>Connects Planck time to Hubble tension using Zx zeros.</p>
-<p><a href="Zx_Planck/Zx_Planck_table.csv">Table</a> | <a href="Zx_Planck/Zx_Planck_figure.png">Figure</a> | <a href="Zx_Planck/Zx_Planck.ipynb">Notebook</a></p>
+      <div class="file-item">
+        <a href="Jabri_Spacetime.ipynb">Jabri_Spacetime.ipynb</a>
+        <small>Notebook</small>
+        <a href="Jabri_Spacetime_table.csv">Table CSV</a> | 
+        <a href="Jabri_Spacetime_figure.png">Figure PNG</a>
+      </div>
 
-<h4>2. Zx_Spacetime</h4>
-<p>Reproduces spacetime constants: t_P, l_P, h, G, c.</p>
-<p><a href="Zx_Spacetime/Zx_Spacetime_table.csv">Table</a> | <a href="Zx_Spacetime/Zx_Spacetime_figure.png">Figure</a> | <a href="Zx_Spacetime/Zx_Spacetime.ipynb">Notebook</a></p>
+      <div class="file-item">
+        <a href="Jabri_all.ipynb">Jabri_all.ipynb</a>
+        <small>Master Notebook</small>
+      </div>
 
-<h4>3. Zx_DarkEnergy</h4>
-<p>Dark energy density from Z''' term. Target: 6.9e-27 kg/m³.</p>
-<p><a href="Zx_Darkenergy/Zx_Darkenergy_table.csv">Table</a> | <a href="Zx_Darkenergy/Zx_Darkenergy_figure.png">Figure</a> | <a href="Zx_Darkenergy/Zx_Darkenergy.ipynb">Notebook</a></p>
+    </div>
+  </div>
 
-<h3>Additional Experiments</h3>
+  <div class="card">
+    <h2>Other Files</h2>
+    <div class="file-grid">
+      <div class="file-item"><a href="README.md">README.md</a></div>
+      <div class="file-item"><a href="CITATION.cff">CITATION.cff</a></div>
+      <div class="file-item"><a href="Equations.png">Equations.png</a></div>
+    </div>
+  </div>
 
-<ul>
-<li><strong>Zx_Hubble:</strong> <a href="Zx_Hubble/Zx_Hubble_table.csv">Table</a> | <a href="Zx_Hubble/Zx_Hubble_figure.png">Figure</a> | <a href="Zx_Hubble/Zx_Hubble.ipynb">Notebook</a></li>
-<li><strong>Zx_Periodic:</strong> <a href="Zx_Periodic/Zx_Periodic_table.csv">Table</a> | <a href="Zx_Periodic/Zx_Periodic_figure.png">Figure</a> | <a href="Zx_Periodic/Zx_Periodic.ipynb">Notebook</a></li>
-<li><strong>Zx_5:</strong> <a href="Zx_5/Zx_5_table.csv">Table</a> | <a href="Zx_5/Zx_5_figure.png">Figure</a> | <a href="Zx_5/Zx_5.ipynb">Notebook</a></li>
-<li><strong>Zx_28:</strong> <a href="Zx_28/Zx_28_table.csv">Table</a> | <a href="Zx_28/Zx_28_figure.png">Figure</a> | <a href="Zx_28/Zx_28.ipynb">Notebook</a></li>
-<li><strong>Zx_all:</strong> <a href="Zx_all/Zx_all.ipynb">Notebook</a></li>
-<li><strong>Zx_gravity:</strong> <a href="Zx_gravity/Zx_gravity.ipynb">Notebook</a></li>
-</ul>
-
-<h2>How to Verify</h2>
-<ol>
-<li>Open any <code>.ipynb</code> file in Google Colab or Jupyter.</li>
-<li>Run all cells. Zero input needed.</li>
-<li>Check the <code>Log Diff</code> column in the table. Values &lt; 0.01 are strong matches.</li>
-<li>Download the CSV and PNG for your own analysis.</li>
-</ol>
-
-<p style="margin-top:50px; text-align:center; color:#666;">
-CC BY 4.0 | Jabri Identity: Z + C + A = 1<br>
-Author: Eng. Abdulla Al-Jabri - صنعاء، اليمن 2026
-</p>
+  <p style="text-align:center; color:#8d96a0; margin-top:40px;">
+    Run it. Check it. Break it. 🇾🇪
+  </p>
 
 </div>
 </body>

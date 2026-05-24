@@ -10,12 +10,12 @@ One idea per file. Run it. Check it. Break it.
 
 ## Core Model
 
-This repo implements the functions used in the Zx verification work.  
-All results come from zeros of the Zx function and its derivatives.
+This repo implements the functions used in the Zx verification work. All results come from zeros of the Zx function and its derivatives.
 
 ![Model Equations](Equations.png)
 
 ### Equations Set
+
 Planck units: $x_p = 21.0$
 
 $$
@@ -39,37 +39,38 @@ Each experiment has 3 files in the root:
 
 ### Core Experiments
 
-#### 1. Zx_Planck
+#### 1. Jabri_Planck
 Connects Planck time to Hubble tension using Zx zeros.
-- [Table](Zx_Planck_table.csv) | [Figure](Zx_Planck_figure.png) | [Notebook](Zx_Planck.ipynb)
+- [Notebook](Jabri_Planck.ipynb) | [Table](Jabri_Planck_table.csv) | [Figure](Jabri_Planck_figure.png)
 
-#### 2. Zx_Spacetime
-Reproduces spacetime constants: t_P, l_P, h, G, c.
-- [Table](Zx_Spacetime_table.csv) | [Figure](Zx_Spacetime_figure.png) | [Notebook](Zx_Spacetime.ipynb)
+#### 2. Jabri_Spacetime
+Reproduces spacetime constants: $t_P, l_P, h, G, c$.
+- [Notebook](Jabri_Spacetime.ipynb) | [Table](Jabri_Spacetime_table.csv) | [Figure](Jabri_Spacetime_figure.png)
 
-#### 3. Zx_DarkEnergy
-Dark energy density from Z''' term. Target: 6.9e-27 kg/m³.
-- [Table](Zx_Darkenergy_table.csv) | [Figure](Zx_Darkenergy_figure.png) | [Notebook](Zx_Darkenergy.ipynb)
+#### 3. Jabri_Darkenergy
+Dark energy density from Z''' term. Target: $6.9 \times 10^{-27}$ kg/m³.
+- [Notebook](Jabri_Darkenergy.ipynb) | [Table](Jabri_Darkenergy_table.csv) | [Figure](Jabri_Darkenergy_figure.png)
 
 ### Additional Experiments
 
-#### 4. Zx_5
-- [Table](Zx_5_table.csv) | [Figure](Zx_5_figure.png) | [Notebook](Zx_5.ipynb)
+#### 4. Jabri_5
+- [Notebook](Jabri_5.ipynb) | [Table](Jabri_5_table.csv) | [Figure](Jabri_5_figure.png)
 
-#### 5. Zx_all
-- [Table](Zx_all_table.csv) | [Figure](Zx_all_figure.png) | [Notebook](Zx_all.ipynb)
+#### 5. Jabri_28
+- [Notebook](Jabri_28.ipynb) | [Table](Jabri_28_table.csv) | [Figure](Jabri_28_figure.png)
 
-#### 6. Zx_28
-- [Table](Zx_28_table.csv) | [Figure](Zx_28_figure.png) | [Notebook](Zx_28.ipynb)
+#### 6. Jabri_Periodic
+- [Notebook](Jabri_Periodic.ipynb) | [Table](Jabri_Periodic_table.csv)
 
-#### 7. Zx_Periodic
-- [Table](Zx_Periodic_table.csv) | [Figure](Zx_Periodic_figure.png) | [Notebook](Zx_Periodic.ipynb)
+#### 7. Jabri_Hubble
+- [Notebook](Jabri_Hubble.ipynb) | [Table](Jabri_Hubble_table.csv)
 
-#### 8. Zx_Hubble
-- [Table](Zx_Hubble_table.csv) | [Figure](Zx_Hubble_figure.png) | [Notebook](Zx_Hubble.ipynb)
+#### 8. Jabri_Gravity
+- [Notebook](Jabri_Gravity.ipynb)
 
-#### 9. Zx_gravity
-- [Table](Zx_gravity_table.csv) | [Figure](Zx_gravity_figure.png) | [Notebook](Zx_gravity.ipynb)
+#### 9. Jabri_all
+Master notebook running all experiments.
+- [Notebook](Jabri_all.ipynb)
 
 ## How to Verify
 
