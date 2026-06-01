@@ -1,4 +1,29 @@
+#File=README.md
+#Repo= Jabri_lab
 # Jabri_lab — Jabri's Laboratory for Computational Proofs
+
+<div align="center">
+
+<img src="Jabri_photo.png" width="140" height="140" style="border-radius:50%; border:4px solid #6ae3ff; object-fit:cover;">
+
+# Eng. Abdulla Mohammed Nasser Al-Jabri
+### م. عبدالله محمد ناصر الجبري
+
+**Independent Researcher in Mathematics & Theoretical Physics**  
+**باحث مستقل في الرياضيات والفيزياء النظرية**
+
+**Research Focus:** Zx Function & Millennium Problems  
+**مجال البحث:** دالة Zx ومسائل الألفية
+
+[![Visit Profile](https://img.shields.io/badge/Visit-GitHub%20Profile-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
+
+<!-- GitHub Stats Badges -->
+[![Profile Views](https://komarev.com/ghpvc/?username=Jabri-web&color=6ae3ff&style=for-the-badge&label=Visitors)](https://github.com/Jabri-web)
+[![GitHub Stars](https://img.shields.io/github/stars/Jabri-web?color=yellow&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=repositories)
+[![GitHub Followers](https://img.shields.io/github/followers/Jabri-web?color=green&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=followers)
+
+---
+
 
 Public verification of computational results using Zx function.  
 One idea per file. Run it. Check it. Break it.
