@@ -132,14 +132,23 @@ https://doi.org/10.5281/zenodo.20148770
 #6-Jabri_lab:
 
 https://Jabri-web.github.io/Jabri_lab/
+
   #6-1-Jabri_5:
+  
   #6-2-Jabri_28:
+  
   #6-3-Jabri_Gravity:
+  
   #6-4-Jabri_Spacetime:
+  
   #6-5-Jabri_Darkenergy:
+  
   #6-6-Jabri_Planck:
+  
   #6-7-Jabri_Hubble:
+  
   #6-8-Jabri_Periodic:
+  
   #6-9-Jabri_all:
 
 #7-Zx_RieOS_v1.1:
