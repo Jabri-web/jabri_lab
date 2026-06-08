@@ -4,7 +4,7 @@
 #repo=Jabri-web
 <div align="center">
 
-# Jabri-web
+# Jabri-lab
 
 #Page: Jabri-web.github.io Database
 
@@ -41,8 +41,6 @@
 **CC BY 4.0** - Free to use with attribution  
 **Jabri Identity:** `Z + C + A = 1`
 
----
-
 ## 📚 Main Repositories / المستودعات الرئيسية
 
 1. **[jabri_lab](https://Jabri-web.github.io/jabri_lab/)** - Zx function & Millennium Problems  
@@ -52,8 +50,6 @@
 5. **[Zx_RieOS_v1.1](https://Jabri-web.github.io/Zx_RieOS_v1.1/)** - v1.1 numerical validation  
 6. **[Zx_Mother_Function_Jabri](https://Jabri-web.github.io/Zx_Mother_Function_Jabri/)** - Core theory  
 7. **[Jabri_Checkout](https://Jabri-web.github.io/Jabri_Checkout/)** - Testing scripts  
-
----
 
 ## 📑 Published Papers with DOI
 
@@ -66,16 +62,6 @@
 7. **Zx_RieOS v1.2 Gold** - [10.5281/zenodo.20100622](https://doi.org/10.5281/zenodo.20100622)  
 8. **Zx_RieOS v1.1** - [10.5281/zenodo.20070594](https://doi.org/10.5281/zenodo.20070594)  
 
----
-
-## 🔗 Contact
-
-- **ORCID:** [0009-0001-1319-3622](https://orcid.org/0009-0001-1319-3622)  
-- **Email:** [jabri.2018@gmail.com](mailto:jabri.2018@gmail.com)  
-- **Website:** [Jabri-web.github.io](https://Jabri-web.github.io)
-- **Website:** [Jabri-web.github.io/jabri62018.github.io](https://Jabri-web.github.io/jabri62018.github.io)
-
----
 
 <div align="center">
 <strong>From Sana'a to the Universe / من صنعاء إلى الكون 🇾🇪</strong>
@@ -101,6 +87,7 @@
 #______________________
 #file=Dbase-all-links.txt
 #______________________
+
 #1-Jabri6218.github.io
 https://jabri-web.github.io/jabri62018.github.io/
 https://doi.org/10.5281/zenodo.20403864
@@ -173,7 +160,14 @@ https://doi.org/10.5381/zenodo.20499365
 
 ## 🤝 Partnerships & Contact
 مهتم بشراكة بحثية أو إعلان مدفوع؟ تواصل معي:
+## 🔗 Contact
 
+- **ORCID:** [0009-0001-1319-3622](https://orcid.org/0009-0001-1319-3622)  
+- **Email:** [jabri.2018@gmail.com](mailto:jabri.2018@gmail.com)  
+- **Website:** [Jabri-web.github.io](https://Jabri-web.github.io)
+- **Website:** [Jabri-web.github.io/jabri62018.github.io](https://Jabri-web.github.io/jabri62018.github.io)
+
+---
 **Email:** jabri62018@gmail.com  
 **Website:** https://jabri-web.github.io  
 **GitHub:** [View All Repositories](https://github.com/Jabri-web?tab=repositories)  
