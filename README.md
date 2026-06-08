@@ -1,6 +1,12 @@
-#File=README.md
-#Repo= Jabri_lab
-# Jabri_lab — Jabri's Laboratory for Computational Proofs
+#general README.md
+
+#file= README.md
+#repo=Jabri-web
+<div align="center">
+
+# Jabri-web
+
+#Page: Jabri-web.github.io Database
 
 <div align="center">
 
@@ -23,85 +29,156 @@
 [![GitHub Followers](https://img.shields.io/github/followers/Jabri-web?color=green&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=followers)
 
 ---
+![Zx Equations](Zx_Equations.png)
+![Zx Equation Figure](Zx_Eq_figure.png)
+
+[![Visit Profile](https://img.shields.io/badge/Visit-GitHub%20Profile-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
+---
+
+</div>
+
+### 📄 License / الترخيص
+**CC BY 4.0** - Free to use with attribution  
+**Jabri Identity:** `Z + C + A = 1`
+
+---
+
+## 📚 Main Repositories / المستودعات الرئيسية
+
+1. **[jabri_lab](https://Jabri-web.github.io/jabri_lab/)** - Zx function & Millennium Problems  
+2. **[Jabri_Nobble](https://Jabri-web.github.io/Jabri_Nobble/)** - Zx_RiemannOS archive  
+3. **[Zx_RiemannOS](https://Jabri-web.github.io/Zx_RiemannOS/)** - Riemann hypothesis framework  
+4. **[Zx_RieOS_v1.2](https://Jabri-web.github.io/Zx_RieOS_v1.2/)** - v1.2 improved algorithms  
+5. **[Zx_RieOS_v1.1](https://Jabri-web.github.io/Zx_RieOS_v1.1/)** - v1.1 numerical validation  
+6. **[Zx_Mother_Function_Jabri](https://Jabri-web.github.io/Zx_Mother_Function_Jabri/)** - Core theory  
+7. **[Jabri_Checkout](https://Jabri-web.github.io/Jabri_Checkout/)** - Testing scripts  
+
+---
+
+## 📑 Published Papers with DOI
+
+1. **Riemann Hypothesis** - [10.5281/zenodo.20139904](https://doi.org/10.5281/zenodo.20139904)  
+2. **P vs NP** - [10.5281/zenodo.20145279](https://doi.org/10.5281/zenodo.20145279)  
+3. **Yang-Mills Mass Gap** - [10.5281/zenodo.20148344](https://doi.org/10.5281/zenodo.20148344)  
+4. **Navier-Stokes** - [10.5281/zenodo.20149618](https://doi.org/10.5281/zenodo.20149618)  
+5. **Zx_RiemannOS v1.3** - [10.5281/zenodo.20145337](https://doi.org/10.5281/zenodo.20145337)  
+6. **Jabri Identity** - [10.5281/zenodo.20114317](https://doi.org/10.5281/zenodo.20114317)  
+7. **Zx_RieOS v1.2 Gold** - [10.5281/zenodo.20100622](https://doi.org/10.5281/zenodo.20100622)  
+8. **Zx_RieOS v1.1** - [10.5281/zenodo.20070594](https://doi.org/10.5281/zenodo.20070594)  
+
+---
+
+## 🔗 Contact
+
+- **ORCID:** [0009-0001-1319-3622](https://orcid.org/0009-0001-1319-3622)  
+- **Email:** [jabri.2018@gmail.com](mailto:jabri.2018@gmail.com)  
+- **Website:** [Jabri-web.github.io](https://Jabri-web.github.io)
+- **Website:** [Jabri-web.github.io/jabri62018.github.io](https://Jabri-web.github.io/jabri62018.github.io)
+
+---
+
+<div align="center">
+<strong>From Sana'a to the Universe / من صنعاء إلى الكون 🇾🇪</strong>
+</div>
 
 
-Public verification of computational results using Zx function.  
-One idea per file. Run it. Check it. Break it.
+![Visitors](https://komarev.com/ghpvc/?username=Jabri-web&label=Visitors&color=0e75b6&style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/Jabri-web?style=flat-square&color=0e75b6)
+![Followers](https://img.shields.io/github/followers/Jabri-web?style=flat-square&color=0e75b6)
 
-**Author:** Eng. Abdulla Al-Jabri - مهندس عبدالله الجبري  
-**Independent Researcher**  
-**Location:** Sana'a, Yemen  
-**Contact:** jabri62018@gmail.com
+[![GitHub Stars](https://img.shields.io/github/stars/Jabri-web?color=yellow&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=repositories)
 
-## Core Model
 
-This repo implements the functions used in the Zx verification work. All results come from zeros of the Zx function and its derivatives.
+[![GitHub Stars](https://img.shields.io/github/stars/Jabri-web/Jabri-web?color=yellow&style=for-the-badge&logo=github)](https://github.com/Jabri-web/Jabri-web)
 
-![Model Equations](Equations.png)
+**Independent researcher working on Riemann zeta function, computational cosmology, and mathematical physics**
 
-### Equations Set
+</div>
+**Independent researcher working on Riemann zeta function, computational cosmology, and mathematical physics**
 
-Planck units: $x_p = 21.0$
+</div>
 
-$$
-\begin{aligned}
-Z(x) &= \exp(-x/x_p) \cdot \exp(-5\ln(x)) \cdot \ln(x) \cdot \sin\left(\frac{2\pi}{x}\right) \\
-A(x) &= \left(\frac{x}{x_p}\right)^2 \exp(-x/x_p) \\
-C(x) &= 1 - Z(x) - A(x) \\
-Z_t &= Z + C + A = 1 \\
-C_{calc} &= 0.5 \cdot \gamma^2 \cdot \text{Re}\left[\frac{Z'''( \gamma)}{Z(\gamma)}\right]
-\end{aligned}
-$$
+#______________________
+#file=Dbase-all-links.txt
+#______________________
+#1-Jabri6218.github.io
+https://jabri-web.github.io/jabri62018.github.io/
+https://doi.org/10.5281/zenodo.20403864
 
-Where $\gamma$ are the non-trivial zeros of Zx(t).
+#2-Zx_RieOS_v1.2
+https://jabri-web.github.io/Zx_RieOS_v1.2/
+https://doi.org/10.5281/zenodo.20100622
 
-## Results
+#3-Zx_Mother_Function_Jabri
+https://Jabri-web.github.io/Zx_Mother_Function_Jabri/
 
-Each experiment has 3 files in the root:
-- `Name_table.csv` - numerical results and matches
-- `Name_figure.png` - plot of results  
-- `Name.ipynb` - reproducible code
+#4-Jabri-web.github.io
+https://Jabri-web.github.io/
+https://doi.org/10.5281/zenodo.20499365
+https://doi.org/10.5281/zenodo.20404167
+#_________________
+#5-Jabri_Nobble
+https://jabri-web.github.io/Jabri_Nobble/
+https://doi.org/10.5281/zenodo.20148770
 
-### Core Experiments
+  #5-1-Jabri_Riemann
+  https://doi.org/10.5281/zenodo.20139904
+https://doi.org/10.5281/zenodo.20145337
 
-#### 1. Jabri_Planck
-Connects Planck time to Hubble tension using Zx zeros.
-- [Notebook](Jabri_Planck.ipynb) | [Table](Jabri_Planck_table.csv) | [Figure](Jabri_Planck_figure.png)
+  #5-2-Jabri_np   https://doi.org/10.5281/zenodo.20145279
 
-#### 2. Jabri_Spacetime
-Reproduces spacetime constants: $t_P, l_P, h, G, c$.
-- [Notebook](Jabri_Spacetime.ipynb) | [Table](Jabri_Spacetime_table.csv) | [Figure](Jabri_Spacetime_figure.png)
+  #5-3-Jabri_gab https://doi.org/10.5281/zenodo.20148344
 
-#### 3. Jabri_Darkenergy
-Dark energy density from Z''' term. Target: $6.9 \times 10^{-27}$ kg/m³.
-- [Notebook](Jabri_Darkenergy.ipynb) | [Table](Jabri_Darkenergy_table.csv) | [Figure](Jabri_Darkenergy_figure.png)
+  #4-Jabri_Navier  https://doi.org/10.5281/zenodo.20149618
 
-### Additional Experiments
+  #5-5-Jabri_Birch
+  #5-6-Jabri_Hodge
+  #5-7-Jabri_Identity  https://doi.org/10.5281/zenodo.20114317
 
-#### 4. Jabri_5
-- [Notebook](Jabri_5.ipynb) | [Table](Jabri_5_table.csv) | [Figure](Jabri_5_figure.png)
+#6-Jabri_lab
+https://Jabri-web.github.io/Jabri_lab/
+  #6-1-Jabri_5
+  #6-2-Jabri_28
+  #6-3-Jabri_Gravity
+  #6-4-Jabri_Spacetime
+  #6-5-Jabri_Darkenergy
+  #6-6-Jabri_Planck
+  #6-7-Jabri_Hubble
+  #6-8-Jabri_Periodic
+  #6-9-Jabri_all
 
-#### 5. Jabri_28
-- [Notebook](Jabri_28.ipynb) | [Table](Jabri_28_table.csv) | [Figure](Jabri_28_figure.png)
+#7-Zx_RieOS_v1.1
+https://Jabri-web.github.io/Zx_RieOS_v1.1/
+https://doi.org/10.5281/zenodo.19981688
+https://doi.org/10.5281/zenodo.20070594
 
-#### 6. Jabri_Periodic
-- [Notebook](Jabri_Periodic.ipynb) | [Table](Jabri_Periodic_table.csv)
+#8-Jabri_RiemannOS
+https://Jabri-web.github.io/Jabri_RiemannOS/
 
-#### 7. Jabri_Hubble
-- [Notebook](Jabri_Hubble.ipynb) | [Table](Jabri_Hubble_table.csv)
+#9-Jabri_Checkout
+https://Jabri-web.github.io/Jabri_Checkout/
+https://doi.org/10.5281/zenodo.20513840
 
-#### 8. Jabri_Gravity
-- [Notebook](Jabri_Gravity.ipynb)
+#10-Jabri-web
+https://Jabri-web.github.io/Jabri-web/
+https://doi.org/10.5381/zenodo.20499365
 
-#### 9. Jabri_all
-Master notebook running all experiments.
-- [Notebook](Jabri_all.ipynb)
+#__________________
+## 📊 GitHub Stats
+<div align="center">
+<img src="https://streak-stats.demolab.com?user=Jabri-web&theme=radical&hide_border=true" alt="GitHub Streak"/>
+<br><br>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jabri-web&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
+</div>
 
-## How to Verify
+## 🤝 Partnerships & Contact
+مهتم بشراكة بحثية أو إعلان مدفوع؟ تواصل معي:
 
-1. Open any `.ipynb` file in Google Colab or Jupyter.
-2. Run all cells. Zero input needed.
-3. Check the `Log Diff` column in the table. Values < 0.01 are strong matches.
-4. Download the CSV and PNG for your own analysis.
+**Email:** jabri62018@gmail.com  
+**Website:** https://jabri-web.github.io  
+**GitHub:** [View All Repositories](https://github.com/Jabri-web?tab=repositories)  
+**Sponsor:** [Become a sponsor](https://github.com/sponsors/Jabri-web)
 
-## Repository Structure
+<div align="center">
+<i>"From Riemann zeros to the structure of the universe"</i>
+</div>
