@@ -10,10 +10,13 @@
 
 # Eng. Abdulla Mohammed Nasser Al-Jabri
 ### م. عبدالله محمد ناصر الجبري
+
 **Independent Researcher in Mathematics & Theoretical Physics**  
 **باحث مستقل في الرياضيات والفيزياء النظرية**
+
 **Research Focus:** Zx Function & Millennium Problems  
 **مجال البحث:** دالة Zx ومسائل الألفية
+
 [![Visit Profile](https://img.shields.io/badge/Visit-GitHub%20Profile-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
 
 <!-- GitHub Stats Badges -->
@@ -55,18 +58,15 @@
 7. **Zx_RieOS v1.2 Gold** - [10.5281/zenodo.20100622](https://doi.org/10.5281/zenodo.20100622)  
 8. **Zx_RieOS v1.1** - [10.5281/zenodo.20070594](https://doi.org/10.5281/zenodo.20070594)  
 
-
 <div align="center">
 <strong>From Sana'a to the Universe / من صنعاء إلى الكون 🇾🇪</strong>
 </div>
-
 
 ![Visitors](https://komarev.com/ghpvc/?username=Jabri-web&label=Visitors&color=0e75b6&style=flat-square)
 ![GitHub stars](https://img.shields.io/github/stars/Jabri-web?style=flat-square&color=0e75b6)
 ![Followers](https://img.shields.io/github/followers/Jabri-web?style=flat-square&color=0e75b6)
 
 [![GitHub Stars](https://img.shields.io/github/stars/Jabri-web?color=yellow&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=repositories)
-
 
 [![GitHub Stars](https://img.shields.io/github/stars/Jabri-web/Jabri-web?color=yellow&style=for-the-badge&logo=github)](https://github.com/Jabri-web/Jabri-web)
 
@@ -75,105 +75,69 @@
 #______________________
 
 #1-Jabri6218.github.io:
-
 https://jabri-web.github.io/jabri62018.github.io/
-
 https://doi.org/10.5281/zenodo.20403864
 
 #2-Zx_RieOS_v1.2:
-
 https://jabri-web.github.io/Zx_RieOS_v1.2/
-
-
 https://doi.org/10.5281/zenodo.20100622
 
 #3-Zx_Mother_Function_Jabri:
-
 https://Jabri-web.github.io/Zx_Mother_Function_Jabri/
 
 #4-Jabri-web.github.io:
-
 https://Jabri-web.github.io/
 https://doi.org/10.5281/zenodo.20499365
-
 https://doi.org/10.5281/zenodo.20404167
 ##
 #5-Jabri_Nobble:
-
 https://jabri-web.github.io/Jabri_Nobble/
-
 https://doi.org/10.5281/zenodo.20148770
 
   #5-1-Jabri_Riemann:
-  
   https://doi.org/10.5281/zenodo.20139904
-  
   https://doi.org/10.5281/zenodo.20145337
 
   #5-2-Jabri_np:
-  
   https://doi.org/10.5281/zenodo.20145279
 
   #5-3-Jabri_gab:
-  
   https://doi.org/10.5281/zenodo.20148344
 
   #5-4-Jabri_Navier:
-  
   https://doi.org/10.5281/zenodo.20149618
 
   #5-5-Jabri_Birch:
-  
   #5-6-Jabri_Hodge:
   #5-7-Jabri_Identity:
-  
   https://doi.org/10.5281/zenodo.20114317
 
 #6-Jabri_lab:
-
 https://Jabri-web.github.io/Jabri_lab/
-
   #6-1-Jabri_5:
-  
   #6-2-Jabri_28:
-  
   #6-3-Jabri_Gravity:
-  
   #6-4-Jabri_Spacetime:
-  
   #6-5-Jabri_Darkenergy:
-  
   #6-6-Jabri_Planck:
-  
   #6-7-Jabri_Hubble:
-  
   #6-8-Jabri_Periodic:
-  
   #6-9-Jabri_all:
 
 #7-Zx_RieOS_v1.1:
-
 https://Jabri-web.github.io/Zx_RieOS_v1.1/
-
 https://doi.org/10.5281/zenodo.19981688
-
 https://doi.org/10.5281/zenodo.20070594
 
 #8-Jabri_RiemannOS:
-
 https://Jabri-web.github.io/Jabri_RiemannOS/
 
-
 #9-Jabri_Checkout:
-
 https://Jabri-web.github.io/Jabri_Checkout/
-
 https://doi.org/10.5281/zenodo.20513840
 
 #10-Jabri-web:
-
 https://Jabri-web.github.io/Jabri-web/
-
 https://doi.org/10.5381/zenodo.20499365
 
 #__________________
@@ -186,8 +150,8 @@ https://doi.org/10.5381/zenodo.20499365
 
 ## 🤝 Partnerships & Contact
 مهتم بشراكة بحثية أو إعلان مدفوع؟ تواصل معي:
-## 🔗 Contact
 
+## 🔗 Contact
 - **ORCID:** [0009-0001-1319-3622](https://orcid.org/0009-0001-1319-3622)  
 - **Email:** [jabri.2018@gmail.com](mailto:jabri.2018@gmail.com)  
 - **Website:** [Jabri-web.github.io](https://Jabri-web.github.io)
