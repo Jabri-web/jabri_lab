@@ -1,12 +1,8 @@
 #general README.md
-
 #file= README.md
-#repo=Jabri-web
+#repo=Jabri-lab
 <div align="center">
-
 # Jabri-lab
-
-#Page: Jabri-web.github.io Database
 
 <div align="center">
 
@@ -82,44 +78,56 @@
 #______________________
 
 #1-Jabri6218.github.io:
+
 https://jabri-web.github.io/jabri62018.github.io/
 https://doi.org/10.5281/zenodo.20403864
 
 #2-Zx_RieOS_v1.2:
+
 https://jabri-web.github.io/Zx_RieOS_v1.2/
 https://doi.org/10.5281/zenodo.20100622
 
 #3-Zx_Mother_Function_Jabri:
+
 https://Jabri-web.github.io/Zx_Mother_Function_Jabri/
 
 #4-Jabri-web.github.io:
+
 https://Jabri-web.github.io/
 https://doi.org/10.5281/zenodo.20499365
 https://doi.org/10.5281/zenodo.20404167
 ##
 #5-Jabri_Nobble:
+
 https://jabri-web.github.io/Jabri_Nobble/
 https://doi.org/10.5281/zenodo.20148770
 
   #5-1-Jabri_Riemann:
+  
   https://doi.org/10.5281/zenodo.20139904
   https://doi.org/10.5281/zenodo.20145337
 
   #5-2-Jabri_np:
+  
   https://doi.org/10.5281/zenodo.20145279
 
   #5-3-Jabri_gab:
+  
   https://doi.org/10.5281/zenodo.20148344
 
   #5-4-Jabri_Navier:
+  
   https://doi.org/10.5281/zenodo.20149618
 
   #5-5-Jabri_Birch:
+  
   #5-6-Jabri_Hodge:
   #5-7-Jabri_Identity:
+  
   https://doi.org/10.5281/zenodo.20114317
 
 #6-Jabri_lab:
+
 https://Jabri-web.github.io/Jabri_lab/
   #6-1-Jabri_5:
   #6-2-Jabri_28:
@@ -132,18 +140,22 @@ https://Jabri-web.github.io/Jabri_lab/
   #6-9-Jabri_all:
 
 #7-Zx_RieOS_v1.1:
+
 https://Jabri-web.github.io/Zx_RieOS_v1.1/
 https://doi.org/10.5281/zenodo.19981688
 https://doi.org/10.5281/zenodo.20070594
 
 #8-Jabri_RiemannOS:
+
 https://Jabri-web.github.io/Jabri_RiemannOS/
 
 #9-Jabri_Checkout:
+
 https://Jabri-web.github.io/Jabri_Checkout/
 https://doi.org/10.5281/zenodo.20513840
 
 #10-Jabri-web:
+
 https://Jabri-web.github.io/Jabri-web/
 https://doi.org/10.5381/zenodo.20499365
 
