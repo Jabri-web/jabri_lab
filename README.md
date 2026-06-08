@@ -10,10 +10,8 @@
 
 # Eng. Abdulla Mohammed Nasser Al-Jabri
 ### م. عبدالله محمد ناصر الجبري
-
 **Independent Researcher in Mathematics & Theoretical Physics**  
 **باحث مستقل في الرياضيات والفيزياء النظرية**
-
 **Research Focus:** Zx Function & Millennium Problems  
 **مجال البحث:** دالة Zx ومسائل الألفية
 
