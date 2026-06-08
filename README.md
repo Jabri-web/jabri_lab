@@ -187,9 +187,6 @@ https://doi.org/10.5381/zenodo.20499365
 - **Website:** [Jabri-web.github.io](https://Jabri-web.github.io)
 - **Website:** [Jabri-web.github.io/jabri62018.github.io](https://Jabri-web.github.io/jabri62018.github.io)
 
----
-**Email:** jabri62018@gmail.com  
-**Website:** https://jabri-web.github.io  
 **GitHub:** [View All Repositories](https://github.com/Jabri-web?tab=repositories)  
 **Sponsor:** [Become a sponsor](https://github.com/sponsors/Jabri-web)
 
