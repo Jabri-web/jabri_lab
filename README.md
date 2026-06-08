@@ -10,13 +10,10 @@
 
 # Eng. Abdulla Mohammed Nasser Al-Jabri
 ### م. عبدالله محمد ناصر الجبري
-
 **Independent Researcher in Mathematics & Theoretical Physics**  
 **باحث مستقل في الرياضيات والفيزياء النظرية**
-
 **Research Focus:** Zx Function & Millennium Problems  
 **مجال البحث:** دالة Zx ومسائل الألفية
-
 [![Visit Profile](https://img.shields.io/badge/Visit-GitHub%20Profile-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
 
 <!-- GitHub Stats Badges -->
@@ -80,11 +77,14 @@
 #1-Jabri6218.github.io:
 
 https://jabri-web.github.io/jabri62018.github.io/
+
 https://doi.org/10.5281/zenodo.20403864
 
 #2-Zx_RieOS_v1.2:
 
 https://jabri-web.github.io/Zx_RieOS_v1.2/
+
+
 https://doi.org/10.5281/zenodo.20100622
 
 #3-Zx_Mother_Function_Jabri:
@@ -95,16 +95,19 @@ https://Jabri-web.github.io/Zx_Mother_Function_Jabri/
 
 https://Jabri-web.github.io/
 https://doi.org/10.5281/zenodo.20499365
+
 https://doi.org/10.5281/zenodo.20404167
 ##
 #5-Jabri_Nobble:
 
 https://jabri-web.github.io/Jabri_Nobble/
+
 https://doi.org/10.5281/zenodo.20148770
 
   #5-1-Jabri_Riemann:
   
   https://doi.org/10.5281/zenodo.20139904
+  
   https://doi.org/10.5281/zenodo.20145337
 
   #5-2-Jabri_np:
@@ -142,21 +145,26 @@ https://Jabri-web.github.io/Jabri_lab/
 #7-Zx_RieOS_v1.1:
 
 https://Jabri-web.github.io/Zx_RieOS_v1.1/
+
 https://doi.org/10.5281/zenodo.19981688
+
 https://doi.org/10.5281/zenodo.20070594
 
 #8-Jabri_RiemannOS:
 
 https://Jabri-web.github.io/Jabri_RiemannOS/
 
+
 #9-Jabri_Checkout:
 
 https://Jabri-web.github.io/Jabri_Checkout/
+
 https://doi.org/10.5281/zenodo.20513840
 
 #10-Jabri-web:
 
 https://Jabri-web.github.io/Jabri-web/
+
 https://doi.org/10.5381/zenodo.20499365
 
 #__________________
