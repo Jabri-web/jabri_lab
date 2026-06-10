@@ -6,7 +6,7 @@
 
 <div align="center" style="background:#000;padding:20px;border-radius:12px">
 
-<img src="Jabri_photo.png" width="140" height="140" style="border-radius:50%; border:4px solid #6ae3ff; background:#000">
+<img src="Image/Jabri-photo.png" width="140" height="140" style="border-radius:50%; border:4px solid #6ae3ff; background:#000">
 
 <h1 style="color:#6ae3ff">Eng. Abdulla Mohammed Nasser Al-Jabri</h1>
 <h3 style="color:#e0e0e0">م. عبدالله محمد ناصر الجبري</h3>
@@ -31,8 +31,8 @@
 [![YOLO](https://img.shields.io/badge/YOLO-Explorer-00ffc8?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
 [![Code Vault](https://img.shields.io/badge/Arctic%20Code%20Vault-Contributor-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
 ---
-![Zx Equations](Zx_Equations.png)
-![Zx Equation Figure](Zx_Eq_figure.png)
+!Image/[Zx Equations](Zx_Equations.png)
+![Image/Zx Equation Figure](Zx_Eq_figure.png)
 
 [![Visit Profile](https://img.shields.io/badge/Visit-GitHub%20Profile-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
 ---
