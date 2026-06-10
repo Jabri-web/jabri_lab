@@ -176,7 +176,7 @@ https://doi.org/10.5281/zenodo.20513840
 
 https://Jabri-web.github.io/Jabri-web/
 
-https://doi.org/10.5381/zenodo.20499365
+https://doi.org/10.5281/zenodo.20499365
 
 #__________________
 ## 📊 GitHub Stats
