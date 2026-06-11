@@ -77,107 +77,87 @@
 [![GitHub Stars](https://img.shields.io/github/stars/Jabri-web/Jabri-web?color=yellow&style=for-the-badge&logo=github)](https://github.com/Jabri-web/Jabri-web)
 
 #______________________
-#file=Dbase-all-links.txt
-#______________________
+<div align="center">
+<h1>🧪 Jabri Lab - مختبر الجبري</h1>
+<h3>Zx Function & Physics Expansions 1 → 9</h3>
+<p><strong>Eng. Abdulla Mohammed Nasser Al-Jabri</strong><br>
+<strong>م. عبدالله محمد ناصر الجبري</strong></p>
+<p><b>Research Focus:</b> Zx Function & Millennium Problems</p>
+</div>
 
-#1-Jabri6218.github.io:
+---
 
-https://jabri-web.github.io/jabri62018.github.io/
+مختبر أبحاث يضم 9 مشاريع توسعية من دالة Zx. كل مشروع يحتوي 5 ملفات رئيسي
 
-https://doi.org/10.5281/zenodo.20403864
+## Projects - المشاريع 1 إلى 9
 
-#2-Zx_RieOS_v1.2:
-https://jabri-web.github.io/Zx_RieOS_v1.2/
+### 1. Jabri_5
+- **Data**: [Data/Jabri_5_table.csv](Data/Jabri_5_table.csv)
+- **Image**: [Image/Jabri_5_figure.png](Image/Jabri_5_figure.png)
+- **Paper**: [Db-pdf/Jabri_5.pdf](Db-pdf/Jabri_5.pdf)
+- **Notebook**: [Python/Jabri_5.ipynb](Python/Jabri_5.ipynb)
+- **LaTeX**: [Tex/Jabri_5.tex](Tex/Jabri_5.tex)
 
-https://doi.org/10.5281/zenodo.20100622
+### 2. Jabri_28
+- **Data**: [Data/Jabri_28_table.csv](Data/Jabri_28_table.csv)
+- **Image**: [Image/Jabri_28_figure.png](Image/Jabri_28_figure.png)
+- **Paper**: [Db-pdf/Jabri_28.pdf](Db-pdf/Jabri_28.pdf)
+- **Notebook**: [Python/Jabri_28.ipynb](Python/Jabri_28.ipynb)
+- **LaTeX**: [Tex/Jabri_28.tex](Tex/Jabri_28.tex)
 
-#3-Zx_Mother_Function_Jabri:
+### 3. Jabri_Gravity
+- **Data**: [Data/Jabri_Gravity_table.csv](Data/Jabri_Gravity_table.csv)
+- **Image**: [Image/Jabri_Gravity_figure.png](Image/Jabri_Gravity_figure.png)
+- **Paper**: [Db-pdf/Jabri_Gravity.pdf](Db-pdf/Jabri_Gravity.pdf)
+- **Notebook**: [Python/Jabri_Gravity.ipynb](Python/Jabri_Gravity.ipynb)
+- **LaTeX**: [Tex/Jabri_Gravity.tex](Tex/Jabri_Gravity.tex)
 
-https://Jabri-web.github.io/Zx_Mother_Function_Jabri/
+### 4. Jabri_Spacetime
+- **Data**: [Data/Jabri_Spacetime_table.csv](Data/Jabri_Spacetime_table.csv)
+- **Image**: [Image/Jabri_Spacetime_figure.png](Image/Jabri_Spacetime_figure.png)
+- **Paper**: [Db-pdf/Jabri_Spacetime.pdf](Db-pdf/Jabri_Spacetime.pdf)
+- **Notebook**: [Python/Jabri_Spacetime.ipynb](Python/Jabri_Spacetime.ipynb)
+- **LaTeX**: [Tex/Jabri_Spacetime.tex](Tex/Jabri_Spacetime.tex)
 
-#4-Jabri-web.github.io:
+### 5. Jabri_Darkenergy
+- **Data**: [Data/Jabri_Darkenergy_table.csv](Data/Jabri_Darkenergy_table.csv)
+- **Image**: [Image/Jabri_Darkenergy_figure.png](Image/Jabri_Darkenergy_figure.png)
+- **Paper**: [Db-pdf/Jabri_Darkenergy.pdf](Db-pdf/Jabri_Darkenergy.pdf)
+- **Notebook**: [Python/Jabri_Darkenergy.ipynb](Python/Jabri_Darkenergy.ipynb)
+- **LaTeX**: [Tex/Jabri_Darkenergy.tex](Tex/Jabri_Darkenergy.tex)
 
-https://Jabri-web.github.io/
+### 6. Jabri_Planck
+- **Data**: [Data/Jabri_Planck_table.csv](Data/Jabri_Planck_table.csv)
+- **Image**: [Image/Jabri_Planck_figure.png](Image/Jabri_Planck_figure.png)
+- **Paper**: [Db-pdf/Jabri_Planck.pdf](Db-pdf/Jabri_Planck.pdf)
+- **Notebook**: [Python/Jabri_Planck.ipynb](Python/Jabri_Planck.ipynb)
+- **LaTeX**: [Tex/Jabri_Planck.tex](Tex/Jabri_Planck.tex)
 
-https://doi.org/10.5281/zenodo.20499365
+### 7. Jabri_Hubble
+- **Data**: [Data/Jabri_Hubble_table.csv](Data/Jabri_Hubble_table.csv)
+- **Image**: [Image/Jabri_Hubble_figure.png](Image/Jabri_Hubble_figure.png)
+- **Paper**: [Db-pdf/Jabri_Hubble.pdf](Db-pdf/Jabri_Hubble.pdf)
+- **Notebook**: [Python/Jabri_Hubble.ipynb](Python/Jabri_Hubble.ipynb)
+- **LaTeX**: [Tex/Jabri_Hubble.tex](Tex/Jabri_Hubble.tex)
 
-https://doi.org/10.5281/zenodo.20404167
-##
-#5-Jabri_Nobble:
+### 8. Jabri_Periodic
+- **Data**: [Data/Jabri_Periodic_table.csv](Data/Jabri_Periodic_table.csv)
+- **Image**: [Image/Jabri_Periodic_figure.png](Image/Jabri_Periodic_figure.png)
+- **Paper**: [Db-pdf/Jabri_Periodic.pdf](Db-pdf/Jabri_Periodic.pdf)
+- **Notebook**: [Python/Jabri_Periodic.ipynb](Python/Jabri_Periodic.ipynb)
+- **LaTeX**: [Tex/Jabri_Periodic.tex](Tex/Jabri_Periodic.tex)
 
-https://jabri-web.github.io/Jabri_Nobble/
+### 9. Jabri_all
+- **Data**: [Data/Jabri_all_table.csv](Data/Jabri_all_table.csv)
+- **Image**: [Image/Jabri_all_figure.png](Image/Jabri_all_figure.png)
+- **Paper**: [Db-pdf/Jabri_all.pdf](Db-pdf/Jabri_all.pdf)
+- **Notebook**: [Python/Jabri_all.ipynb](Python/Jabri_all.ipynb)
+- **LaTeX**: [Tex/Jabri_all.tex](Tex/Jabri_all.tex)
 
-https://doi.org/10.5281/zenodo.20148770
-
-  #5-1-Jabri_Riemann:
-  
-  https://doi.org/10.5281/zenodo.20139904
-  
-  https://doi.org/10.5281/zenodo.20145337
-
-  #5-2-Jabri_np:
-  
-  https://doi.org/10.5281/zenodo.20145279
-
-  #5-3-Jabri_gab:
-  
-  https://doi.org/10.5281/zenodo.20148344
-
-  #5-4-Jabri_Navier:
-  
-  https://doi.org/10.5281/zenodo.20149618
-
-  #5-5-Jabri_Birch:
-  
-  #5-6-Jabri_Hodge:
-  
-  #5-7-Jabri_Identity:
-  
-  https://doi.org/10.5281/zenodo.20114317
-
-#6-Jabri_lab:
-
-https://Jabri-web.github.io/Jabri_lab/
-
-  #6-1-Jabri_5:
-  
-  #6-2-Jabri_28:
-  
-  #6-3-Jabri_Gravity:
-  
-  #6-4-Jabri_Spacetime:
-  
-  #6-5-Jabri_Darkenergy:
-  
-  #6-6-Jabri_Planck:
-  
-  #6-7-Jabri_Hubble:
-  
-  #6-8-Jabri_Periodic:
-  #6-9-Jabri_all:
-
-#7-Zx_RieOS_v1.1:
-
-https://Jabri-web.github.io/Zx_RieOS_v1.1/
-
-https://doi.org/10.5281/zenodo.19981688
-
-https://doi.org/10.5281/zenodo.20070594
-
-#8-Jabri_RiemannOS:
-
-https://Jabri-web.github.io/Jabri_RiemannOS/
-
-#9-Jabri_Checkout:
-https://Jabri-web.github.io/Jabri_Checkout/
-https://doi.org/10.5281/zenodo.20513840
-
-#10-Jabri-web:
-
-https://Jabri-web.github.io/Jabri-web/
-
-https://doi.org/10.5281/zenodo.20499365
-
+## Run Notebooks
+```bash
+pip install numpy pandas matplotlib jupyter
+jupyter notebook Python/Jabri_5.ipynb
 #__________________
 ## 📊 GitHub Stats
 <div align="center">
