@@ -19,7 +19,7 @@
 | **GitHub Pages** | [https://jabri-web.github.io/jabri_lab/](https://jabri-web.github.io/jabri_lab/) |
 | **Current File** | `./ABOUT.md` (English) |
 | **Language** | English (Default) / العربية (Alternative) |
-| **DOI** | قيد النشر (Publishing) |
+| **DOI** | Publishing |
 | **Author** | [Eng. Abdulla Mohammed Nasser Al-Jabri](https://github.com/Jabri-web) |
 | **License** | CC BY 4.0 |
 | **Identity** | `Z + C + A = 1` |
