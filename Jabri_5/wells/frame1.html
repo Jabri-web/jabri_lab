@@ -4,16 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frame 1 - الإطار العددي | الورقة التفاعلية</title>
+    <meta name="description" content="The Numerical Framework: A Damping Model, the Riemann Zeta Zeros, and the Proposed Integer Cutoff xp=21">
+    <link rel="canonical" href="https://jabri-com.vercel.app/wells/frame1.html">
     
+    <!-- Google Scholar Meta Tags -->
     <meta name="citation_title" content="The Numerical Framework: A Damping Model, the Riemann Zeta Zeros, and the Proposed Integer Cutoff xp=21">
     <meta name="citation_author" content="Al-Jabri, Abdulla Mohammed Nasser">
+    <meta name="citation_publication_date" content="2026/10/21">
     <meta name="citation_doi" content="10.5281/zenodo.23540283">
-    
+    <meta name="citation_language" content="ar">
+    <meta name="citation_pdf_url" content="https://jabri-com.vercel.app/wells/frame1.html">
+
+    <!-- JSON-LD Schema (@graph) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://jabri-com.vercel.app/#website",
+          "url": "https://jabri-com.vercel.app/",
+          "name": "واحة الجبري | Heaven Al-Jabri",
+          "inLanguage": "ar",
+          "publisher": { "@id": "https://jabri-com.vercel.app/#organization" }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://jabri-com.vercel.app/#organization",
+          "name": "واحة الجبري | Heaven Al-Jabri",
+          "url": "https://jabri-com.vercel.app/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jabri-com.vercel.app/image/logo1.png",
+            "width": 512,
+            "height": 512
+          },
+          "founder": { "@id": "https://jabri-com.vercel.app/#person" },
+          "foundingDate": "2026",
+          "areaServed": "YE"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://jabri-com.vercel.app/#person",
+          "name": "عبدالله محمد ناصر الجبري",
+          "alternateName": "Abdulla Mohammed Nasser Al-Jabri",
+          "url": "https://jabri-com.vercel.app/",
+          "sameAs": [
+            "https://orcid.org/0009-0003-3319-3822",
+            "https://github.com/jabri-web",
+            "https://en.wikipedia.org/wiki/User:Jabri2026"
+          ],
+          "jobTitle": "باحث ومؤلف ومؤسس"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://jabri-com.vercel.app/wells/frame1.html#article",
+          "headline": "The Numerical Framework: A Damping Model, the Riemann Zeta Zeros, and the Proposed Integer Cutoff xp=21",
+          "author": { "@id": "https://jabri-com.vercel.app/#person" },
+          "publisher": { "@id": "https://jabri-com.vercel.app/#organization" },
+          "datePublished": "2026-10-21",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.5281/zenodo.23540283"
+          },
+          "url": "https://jabri-com.vercel.app/wells/frame1.html",
+          "inLanguage": "ar",
+          "abstract": "This paper presents a conceptual numerical framework within the Al-Hindara project. It discusses the proposed normalization relation Z+C+A=1 and investigates a candidate damping function containing the integer parameter xp=21."
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://jabri-com.vercel.app/wells/frame1.html#breadcrumb",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://jabri-com.vercel.app/" },
+            { "@type": "ListItem", "position": 2, "name": "Frame 1", "item": "https://jabri-com.vercel.app/wells/frame1.html" }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- MathJax for Equations -->
     <script>
         MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] } };
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- html2pdf -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 
     <style>
@@ -23,11 +101,13 @@
         
         .lang-btn { position: absolute; top: -10px; left: 0; background: var(--border); color: var(--text); text-decoration: none; padding: 8px 15px; border-radius: 8px; font-weight: bold; font-size: 0.9rem; border: 1px solid var(--dim); transition: 0.3s; }
         .lang-btn:hover { background: var(--gold); color: var(--bg); }
-
+        
         h1 { color: var(--gold); text-align: center; font-size: 1.8rem; margin-bottom: 5px; margin-top: 30px; }
         .subtitle { text-align: center; color: var(--dim); font-size: 1rem; margin-bottom: 20px; }
+        
         .card { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 24px; box-shadow: 0 10px 30px -15px #000; }
         .card h2 { color: var(--green); margin-top: 0; border-bottom: 1px solid var(--border); padding-bottom: 10px; font-size: 1.3rem; }
+        .card h3 { color: var(--blue); font-size: 1.1rem; margin-top: 20px; }
         
         .badge-exact { background: rgba(6, 214, 160, 0.1); border-right: 4px solid var(--green); padding: 12px; border-radius: 4px; margin: 15px 0; font-size: 0.95rem; }
         .badge-exploratory { background: rgba(244, 196, 48, 0.1); border-right: 4px solid var(--gold); padding: 12px; border-radius: 4px; margin: 15px 0; font-size: 0.95rem; }
@@ -53,18 +133,12 @@
         details[open] summary { margin-bottom: 15px; border-bottom: 1px dashed var(--border); padding-bottom: 10px; }
 
         .links { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 15px; }
-        .btn { background: var(--green); color: #0a1a12; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 0.9rem; border: none; cursor: pointer; font-family: inherit; }
+        .btn { background: var(--green); color: #0a1a12; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 0.9rem; border: none; cursor: pointer; font-family: inherit; text-align: center; }
         .btn-gold { background: var(--gold); }
         .btn-blue { background: var(--blue); }
         .footer { text-align: center; color: var(--dim); font-size: 0.85rem; margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--border); }
-
-        @media print {
-            body { background: white; color: #111; }
-            .card { background: white; color: #111; box-shadow: none; border: 1px solid #aaa; }
-            h2 { color: #000; border-color: #aaa; }
-            .math-block, .controls, .chart-container, .badge-exact, .badge-exploratory, .badge-conjectural, th { background: #f5f5f5; color: #111; border-color: #aaa; }
-            .lang-btn, button { display: none; }
-        }
+        
+        @media print { body { background: white; color: #111; } .card { background: white; color: #111; box-shadow: none; border: 1px solid #aaa; } h2 { color: #000; border-color: #aaa; } .math-block, .controls, .chart-container, .badge-exact, .badge-exploratory, .badge-conjectural, th { background: #f5f5f5; color: #111; border-color: #aaa; } .lang-btn, button { display: none; } }
     </style>
 </head>
 <body>
@@ -72,7 +146,7 @@
 <div class="container" id="pdf-content">
     <a href="frame1-en.html" class="lang-btn">🌐 English</a>
 
-    <h1>الإطار العددي — النسخة التفاعلية الشاملة</h1>
+    <h1>الإطار العددي — الورقة التفاعلية الشاملة</h1>
     <div class="subtitle">
         <strong>The Numerical Framework: A Damping Model, the Riemann Zeta Zeros, and the Proposed Integer Cutoff \(x_p=21\)</strong><br>
         Eng. Abdulla M. N. Al-Jabri — Sana'a, Yemen | October 2026
@@ -103,8 +177,9 @@
         <h2>1. صفر ريمان والقطع المقترح</h2>
         <p><b>تعريف (القطع الصحيح المقترح).</b> ليكن \(\gamma_2 \approx 21.022039\) هو الإحداثي الصادي لثاني صفر غير بديهي موجب لدالة زيتا الريمانية. نعرّف معامل النموذج:</p>
         <div class="math-block">\[ x_p := \lfloor \gamma_2 \rfloor = 21. \]</div>
-        <div class="badge-exact">
-            <strong>ملاحظة علمية:</strong> تسمية "الثابت اليمني" هي اسم خاص بالمشروع لهذا المعامل المقترح؛ وأي دلالة رياضية أو فيزيائية أوسع له لا تزال بحاجة إلى إثبات مستقل.
+        <div class="badge-conjectural">
+            <strong>⚠️ توضيح جوهري (أصفار ريمان vs جذور الدالة):</strong> <br>
+            استخدام القيمة 21 هو مجرد <strong>اختيار نمذجي</strong> مستوحى من صفر ريمان. <strong>لا يعني هذا بأي حال</strong> أن \(\gamma_2 = 21.022\) هو جذر للدالة \(Z(x)\) أو لمشتقتها \(Z'(x)\). في مجال الدراسة الحالي (\(x \ge 1\))، الجذر الوحيد للدالة \(Z(x)\) هو \(x=2\). الجذور الأخرى (مثل \(x=2/3, 2/5\)) تقع خارج المجال المعرّف للمحاكاة (\(x < 1\)).
         </div>
     </div>
 
@@ -124,8 +199,10 @@
 
     <div class="card">
         <h2>3. دالة التجميع</h2>
-        <p>نعرّف \(A(x):=\int_1^x Z(t;21)\,dt\). وفقاً للنظرية الأساسية للتفاضل والتكامل، \(A'(x) = Z(x;21)\). وهكذا، فإن \(A(x)\) تتناقص على \((1, 2)\)، وتصل إلى <strong>قيمة صغرى عند \(x=2\)</strong>، ثم تتزايد على \((2, \infty)\).</p>
-        <div class="math-note">*(ملاحظة: يتم حساب التكامل في الرسم البياني عددياً باستخدام قاعدة شبه المنحرف بخطوة 0.05).*</div>
+        <p>نعرّف دالة التجميع رياضياً على المجال \(x \ge 1\) بالعلاقة: \(A(x) := \int_1^x Z(t;21)\,dt\). وفقاً للنظرية الأساسية للتفاضل والتكامل، \(A'(x) = Z(x;21)\).</p>
+        <p>بما أن \(Z(x)\) سالبة على \((1, 2)\) وموجبة على \((2, \infty)\)، فإن \(A(x)\) تتناقص على \((1, 2)\)، وتصل إلى <strong>قيمة صغرى مطلقة (Global Minimum) عند \(x=2\)</strong>، ثم تتزايد على \((2, \infty)\).</p>
+        <div class="math-note">*(ملاحظة رياضية: عند \(x=1\)، نهاية الدالة من اليمين هي \(\lim_{x\to 1^+} Z(x) = 0\). لذلك التكامل يبدأ بسلاسة من الصفر دون أي قفزات، ويتم حسابه عددياً باستخدام قاعدة شبه المنحرف بخطوة 0.05).*</div>
+        
         <div class="badge-exploratory">
             <strong>⚠️ تصحيح علمي:</strong> الادعاء السابق بأن دالة التجميع لها قمة (Maximum) عند \(x=42\) غير مدعوم بالمعادلات. الدالة تتزايد باستمرار بعد \(x=2\).
         </div>
@@ -162,10 +239,29 @@
     </div>
 
     <div class="card">
-        <h2>6. المنهجية والربط</h2>
+        <h2>6. امتدادات كونية تخمينية (RiemannOS)</h2>
+        
         <div class="badge-conjectural" style="margin-top: 0;">
-            <strong>حالة RiemannOS:</strong> يظل التفسير الكوني الأوسع (RiemannOS) ومعادلة التطبيع \(Z+C+A=1\) <strong>تخمينيين بحتين</strong>. لا تدعي هذه الورقة إثبات فرضية ريمان أو اشتقاق ثوابت كونية. إنها تفصل بدقة بين النتائج الرياضية الدقيقة والمقترحات التجريبية والتخمينية.
+            <strong>حالة RiemannOS:</strong> التفسير الكوني الأوسع (RiemannOS) ومعادلة التطبيع \(Z+C+A=1\) يمثلان <strong>تخمينات فلسفية/فيزيائية</strong>. لا تدعي هذه الورقة إثبات فرضية ريمان أو اشتقاق ثوابت كونية. 
         </div>
+
+        <h3>أ. فرضية Jabri-A (الطاقة المظلمة)</h3>
+        <p>في مسودات سابقة للمشروع، تمت ملاحظة تطابق عددي مثير للاهتمام. إذا قمنا بتعريف الجذور \(t_k\) على أنها الجذور التي تحقق \(Z'(t_k) = 0\) (وهي جذور خاصة بدالتنا وليست أصفار ريمان)، فإن تقييم المشتقة الثانية للجهد عند الجذر الخامس \(t_5 \approx 32.935\) يعطي قيمة عددية \(Z''(t_5) \sim 10^{-123}\)، وهي قريبة جداً من كثافة الطاقة المفرغة المرصودة \(\Lambda \sim 10^{-122} M_{Pl}^2\).</p>
+        
+        <div class="badge-conjectural" style="background: rgba(229, 115, 115, 0.15);">
+            <strong>⚠️ تحذير علمي صارم (إعادة ضبط):</strong> هذا التطابق هو <strong>مصادفة عددية (Numerical Coincidence)</strong> وليس اشتقاقاً فيزيائياً. جذور \(Z'(t_k)=0\) لا تمثل أصفار دالة زيتا. لذلك، لا يمكن اعتبار هذا النموذج حلاً لمشكلة الثابت الكوني. يُقدَّم فقط كملاحظة رياضية استكشافية قد تُلهم أبحاثاً مستقبلية.
+        </div>
+
+        <h3>ب. فرضية Jabri-C (الزمكان كتنفيذ للكود)</h3>
+        <p>تقترح فرضية فلسفية أكثر جرأة (Jabri-C) أن الزمكان ليس مسرحاً مستقلاً، بل هو "مخرجات تشغيل" (Runtime Output) للكود الرياضي. يتم صياغة ذلك افتراضياً عبر فعل (Action) يربط بين هندسة أينشتاين والحقل \(Z(x)\):</p>
+        <div class="math-block">
+            \[ S = \int d^4x \sqrt{-g} \left[ \frac{R}{16\pi G} + \frac{1}{2} \partial_\mu Z \partial^\mu Z - V(Z) \right] \]
+        </div>
+        
+        <div class="badge-conjectural" style="background: rgba(229, 115, 115, 0.15);">
+            <strong>⚠️ تحذير علمي صارم:</strong> هذا الفعل هو <strong>محاكاة فلسفية (Philosophical Analogy)</strong>. لا يوجد إثبات رياضي يربط بين معادلات أينشتاين الحقلية وجذور الدالة \(Z(x)\). تُقدَّم هذه الأفكار كبذور للتفكير، وليست حقائق فيزيائية مثبتة.
+        </div>
+
         <p>لمزيد من التفاصيل، راجع <b>الإطار الثاني (Frame 2)</b> الذي يطبق هذه المنهجية على البرهان الهندسي للشجرة والظل والبيانات الميدانية.</p>
         
         <div class="links" style="margin-bottom: 15px;">
@@ -176,6 +272,43 @@
         <div style="margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
             <button onclick="window.print()" class="btn btn-blue">🖨️ طباعة / حفظ (نصي)</button>
             <button onclick="generateDirectPDF()" class="btn btn-gold">📥 تحميل PDF (مباشر)</button>
+        </div>
+    </div>
+
+    <!-- ==================== قسم الأدوات البرمجية والتحقق (جديد) ==================== -->
+    <div class="card">
+        <h2>🛠️ 7. الأدوات البرمجية والتحقق العددي (Computational Tools)</h2>
+        <p>لضمان إمكانية إعادة إنتاج النتائج (Reproducibility) والتحقق من صحة المشتقات، تم تزويد هذا الإطار بالأدوات التفاعلية والبرمجية التالية:</p>
+        
+        <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+            
+            <!-- الحاسبة v3.2.2 -->
+            <div style="background: #051009; border: 1px solid var(--border); padding: 15px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                <div>
+                    <strong style="color: var(--gold);">حاسبة Z(x) التفاعلية (v3.2.2)</strong><br>
+                    <span style="font-size: 0.85rem; color: var(--dim);">تطبيق ويب لحظي لحساب Z(x) ومشتقاتها بناءً على 100 صفر لريمان.</span>
+                </div>
+                <a href="calculator.html" target="_blank" class="btn btn-blue">🧮 فتح الحاسبة</a>
+            </div>
+
+            <!-- الحاسبة v3.4.0 -->
+            <div style="background: #051009; border: 1px solid var(--border); padding: 15px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                <div>
+                    <strong style="color: var(--gold);">حاسبة التقارب (v3.4.0)</strong><br>
+                    <span style="font-size: 0.85rem; color: var(--dim);">حساب المجموع الجزئي Z_N(44) وإثبات تقاربه نحو -1.00.</span>
+                </div>
+                <a href="calculator-v340.html" target="_blank" class="btn btn-blue">📈 فتح حاسبة التقارب</a>
+            </div>
+
+            <!-- التحقق العددي -->
+            <div style="background: #051009; border: 1px solid var(--border); padding: 15px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                <div>
+                    <strong style="color: var(--gold);">التحقق العددي (Python Verification)</strong><br>
+                    <span style="font-size: 0.85rem; color: var(--dim);">مقارنة بين الاشتقاق التحليلي والعددي (خطأ ~10^-13) لإثبات سلامة الكود الرياضي.</span>
+                </div>
+                <a href="appendix-d.png" target="_blank" class="btn btn-gold">📊 عرض جدول التحقق</a>
+            </div>
+
         </div>
     </div>
 
@@ -190,7 +323,13 @@
         if (typeof Chart === 'undefined') return;
         Chart.defaults.color = '#8aa892'; Chart.defaults.borderColor = '#1f3a2b';
         let zChart, aChart;
-        function calculateZ(x, xp) { return x <= 1 ? 0 : Math.pow(x, -5) * Math.log(x) * Math.sin(2 * Math.PI / x) * Math.exp(-x / xp); }
+        
+        // دالة التخميد Z(x)
+        function calculateZ(x, xp) { 
+            if (x <= 1) return 0; 
+            return Math.pow(x, -5) * Math.log(x) * Math.sin(2 * Math.PI / x) * Math.exp(-x / xp); 
+        }
+
         function generateData(xp) {
             const labels = [], zData = [], aData = [];
             const step = 0.05, count = Math.round((50 - 1) / step);
@@ -203,6 +342,7 @@
             }
             return { labels, zData, aData };
         }
+        
         function updateCharts(xp) {
             const { labels, zData, aData } = generateData(xp);
             if (zChart) zChart.destroy();
@@ -216,6 +356,7 @@
                 options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Accumulation Function A(x)', color: '#e8f5e9' }, legend: { display: false } } }
             });
         }
+        
         updateCharts(21);
         document.getElementById('xpSlider').addEventListener('input', function() {
             document.getElementById('xpValue').textContent = this.value;
@@ -226,7 +367,7 @@
     window.generateDirectPDF = function() {
         const element = document.getElementById('pdf-content');
         const buttons = document.querySelectorAll('.lang-btn, button');
-        buttons.forEach(btn => btn.style.display = 'none'); // إخفاء الأزرار مؤقتاً
+        buttons.forEach(btn => btn.style.display = 'none'); 
         
         const opt = {
             margin:       10,
@@ -237,7 +378,7 @@
         };
 
         html2pdf().set(opt).from(element).save().then(() => {
-            buttons.forEach(btn => btn.style.display = ''); // إعادة إظهار الأزرار
+            buttons.forEach(btn => btn.style.display = ''); 
         });
     };
 </script>
